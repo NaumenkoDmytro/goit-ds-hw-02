@@ -1,6 +1,6 @@
 import faker
 import sqlite3
-from random import choice, randint
+from random import choice
 
 
 USERS_NUMBER = 30
