@@ -16,9 +16,9 @@ CREATE TABLE status (
 );
 
 -- Table: tasks
-DROP TABLE IF EXISTS task;
+DROP TABLE IF EXISTS tasks;
 
-CREATE TABLE task (
+CREATE TABLE tasks (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     title VARCHAR(100),
     description TEXT,
