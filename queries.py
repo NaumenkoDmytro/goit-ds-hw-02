@@ -143,19 +143,3 @@ def get_count_tasks_by_each_user():
 
     return execute_query(sql)
 
-
-# if __name__ == "__main__":
-#     print(get_tasks_by_user_id(7))
-#     print(get_tasks_by_status("new"))
-#     update_status_of_task(1, "completed")
-#     print(list_users_without_tasks())
-#     add_task(1, "New Task", "Bla-bla-bla")
-#     print(get_tasks_is_not_finished())
-#     delete_task(99)
-#     print(search_users_by_email("wil"))
-#     update_name_of_user(10, "Black Subbath")
-#     print(get_count_task_by_each_status())
-#     print(get_tasks_by_user_email_domain("james.com"))
-#     print(get_tasks_without_description())
-#     print(get_tasks_in_progress_with_users())
-#     print(get_count_tasks_by_each_user())
