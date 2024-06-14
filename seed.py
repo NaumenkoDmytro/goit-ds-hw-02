@@ -7,7 +7,7 @@ USERS_NUMBER = 30
 TASKS_NUMBER = 60
 
 
-def generate_fake_data(number_users, number_tasks) -> tuple():
+def generate_fake_data(number_users, number_tasks) -> tuple:
     fake_users = []
     fake_tasks = []
     statuses = [("new",), ("in progress",), ("completed",)]
